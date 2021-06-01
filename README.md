@@ -29,4 +29,5 @@ Fig.1. The multiscale principle of relevant information (MPRI) is a new multilay
 Fig.2. Overall accuracy (OA) values of different competing methods with respect to different percentages of training samples per class on Indian Pines dataset.
 
 [1] Principe, Jose C. Information theoretic learning: Renyi's entropy and kernel perspectives. Springer Science & Business Media, 2010.
+
 [2] Tishby, Naftali; Pereira, Fernando C.; Bialek, William. The Information Bottleneck Method. The 37th annual Allerton Conference on Communication, Control, and Computing, pp. 368–377, 1999
