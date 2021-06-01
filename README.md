@@ -15,7 +15,8 @@ PRI is an unsupervised principle that aims to perform mode decomposition of a ra
 The PRI casts this problem as a trade-off between the entropy *H(f)* of *Z* and its descriptive power about *X* in terms of their divergence *D(f\|\|g)*:
 
 ![1](http://latex.codecogs.com/svg.latex?J(f)=H(f)+\beta*D(f\|\|g),)
-where $\beta$ is a hyper-parameter controlling the amount of relevant information that $Z$ can extract from $X$. The minimization of entropy can be viewed as a means of reducing uncertainty (or redundancy) and finding the statistical regularities in the outcomes, whereas the minimization of information divergence ensures that such regularities are closely related to $X$. The PRI is similar in spirit to the Information Bottleneck (IB) approach, but the formulation is different because PRI does not require a relevant auxiliary variable $Y$ and the optimization is done directly on the random variable $X$ (rather than the joint distribution $p(X,Y)$ as in the IB).
+
+where $\beta$ is a hyper-parameter controlling the amount of relevant information that *Z* can extract from *X*. The minimization of entropy can be viewed as a means of reducing uncertainty (or redundancy) and finding the statistical regularities in the outcomes, whereas the minimization of information divergence ensures that such regularities are closely related to *X*. The PRI is similar in spirit to the Information Bottleneck (IB) approach, but the formulation is different because PRI does not require a relevant auxiliary variable *Y* and the optimization is done directly on the random variable *X* (rather than the joint distribution *p(X,Y)* as in the IB).
 
 ## The Architecture of MPRI
 ![image](https://github.com/SJYuCNEL/Principle-of-Relevant-Information-and-HSI-Classification/blob/main/MPRI_architecture.png)
