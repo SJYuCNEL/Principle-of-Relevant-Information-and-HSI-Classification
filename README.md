@@ -10,7 +10,7 @@ arxiv: https://arxiv.org/abs/1907.06022
 **We provide two demos: 1) Principle of Relevant Information (PRI) on synthetic data (Fig. 1 in the manuscript); and 2) Multiscale PRI (MPRI) for hyperspectral image (HSI) classification on Indian Pines dataset.**
 
 ## Principle of Relevant Information (PRI) and its Objective
-PRI is an unsupervised principle that aims to perform mode decomposition of a random variable $X$ with a known and fixed probability distribution $g$ [1]. Suppose we aim to obtain (from $X$) a reduced statistical representation characterized by another random variable $Z$ with probability distribution $f$. 
+PRI is an unsupervised principle that aims to perform mode decomposition of a random variable *X* with a known and fixed probability distribution *g* [1]. Suppose we aim to obtain (from *X*) a reduced statistical representation characterized by another random variable *Z* with probability distribution *f*. 
 
 The PRI casts this problem as a trade-off between the entropy $H(f)$ of $Z$ and its descriptive power about $X$ in terms of their divergence $D(f\|\|g)$:
 
