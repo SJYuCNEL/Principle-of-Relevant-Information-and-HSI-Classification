@@ -12,7 +12,8 @@ arxiv: https://arxiv.org/abs/1907.06022
 ## Principle of Relevant Information (PRI) and its Objective
 PRI is an unsupervised principle that aims to perform mode decomposition of a random variable $X$ with a known and fixed probability distribution $g$ [1]. Suppose we aim to obtain (from $X$) a reduced statistical representation characterized by another random variable $Z$ with probability distribution $f$. 
 
-The PRI casts this problem as a trade-off between the entropy $H(f)$ of $Z$ and its descriptive power about $X$ in terms of their divergence $D(f\|g)$:
+The PRI casts this problem as a trade-off between the entropy $H(f)$ of $Z$ and its descriptive power about $X$ in terms of their divergence $D(f\|\|g)$:
+
 ![1](http://latex.codecogs.com/svg.latex?J(f)=H(f)+\beta*D(f\|\|g))
 
 ## The Architecture of MPRI
