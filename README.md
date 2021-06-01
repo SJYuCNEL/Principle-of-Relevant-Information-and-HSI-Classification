@@ -16,7 +16,7 @@ The PRI casts this problem as a trade-off between the entropy *H(f)* of *Z* and 
 
 ![1](http://latex.codecogs.com/svg.latex?J(f)=H(f)+\beta*D(f\|\|g),)
 
-where $\beta$ is a hyper-parameter controlling the amount of relevant information that *Z* can extract from *X*. The minimization of entropy can be viewed as a means of reducing uncertainty (or redundancy) and finding the statistical regularities in the outcomes, whereas the minimization of information divergence ensures that such regularities are closely related to *X*. The PRI is similar in spirit to the Information Bottleneck (IB) approach, but the formulation is different because PRI does not require a relevant auxiliary variable *Y* and the optimization is done directly on the random variable *X* (rather than the joint distribution *p(X,Y)* as in the IB).
+where $\beta$ is a hyper-parameter controlling the amount of relevant information that *Z* can extract from *X*. The minimization of entropy can be viewed as a means of reducing uncertainty (or redundancy) and finding the statistical regularities in the outcomes, whereas the minimization of information divergence ensures that such regularities are closely related to *X*. The PRI is similar in spirit to the Information Bottleneck (IB) approach [2], but the formulation is different because PRI does not require a relevant auxiliary variable *Y* and the optimization is done directly on the random variable *X* (rather than the joint distribution *p(X,Y)* as in the IB).
 
 ## The Architecture of MPRI
 ![image](https://github.com/SJYuCNEL/Principle-of-Relevant-Information-and-HSI-Classification/blob/main/MPRI_architecture.png)
@@ -29,3 +29,4 @@ Fig.1. The multiscale principle of relevant information (MPRI) is a new multilay
 Fig.2. Overall accuracy (OA) values of different competing methods with respect to different percentages of training samples per class on Indian Pines dataset.
 
 [1] Principe, Jose C. Information theoretic learning: Renyi's entropy and kernel perspectives. Springer Science & Business Media, 2010.
+[2] Tishby, Naftali; Pereira, Fernando C.; Bialek, William. The Information Bottleneck Method. The 37th annual Allerton Conference on Communication, Control, and Computing, pp. 368–377, 1999
