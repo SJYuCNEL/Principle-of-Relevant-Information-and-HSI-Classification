@@ -1,6 +1,6 @@
 **Article: Multiscale Principle of Relevant Information for Hyperspectral Image Classification**,
 
-**to be published in Machine Learning Journal (Springer)**
+**published in Machine Learning Journal (Springer)**
 
 Authors: Yantao Wei, Shujian Yu, Luis Sanchez Giraldo, Jose C. Principe
 
